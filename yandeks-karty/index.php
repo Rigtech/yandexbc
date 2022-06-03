@@ -59,7 +59,7 @@ if ( !isset($offices) ) {
     $officesDB = CIBlockElement::GetList([], $arFilter, false, false, $arSelect);
     while ($office = $officesDB->Fetch()) {
 
-        // Верстку добавлять не круто сюда, но иначе никак
+        // Верстку добавлять не круто сюда, но ее мало и не хочется пересобирать массив
         $buff_office = [
                 'LON'=>$office['PROPERTY_LNG_VALUE'],
                 'LAT'=>$office['PROPERTY_LAT_VALUE'],

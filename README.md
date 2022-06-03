@@ -3,4 +3,9 @@
 
 - На локалке, OpenServer
 
+##Устрановка
+- Копируем папку в корень
+- Запускаем /yandex-karty/install.php
+- Открываем /yandex-karty/index.php
+
 
